@@ -1,0 +1,85 @@
+body {
+}
+header {
+  background-color: black;
+}
+section {
+  box-shadow: 2px 14px 20px 0px rgba(111,141,173,0.72);
+  min-height: 90vh;
+  padding: 2em;
+}
+#section_01 {
+  background: #d3d3d3 url('images/bg_01.jpg') no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#section_01 h1 {
+}
+
+nav a {
+  display: block;
+  background: rgb(255, 255, 255);
+  border : 1px solid rgb(0, 0, 0);
+  padding: 1em
+
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+}
+
+.read-more {
+  display: block;
+  background: blue;
+  padding: 1em;
+  color: white;
+  float: right;
+  border-radius: 12px;
+}
+
+#section_03 .inner-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#section_03 .cat-bloc{
+  padding: 0.50em;
+  margin: 0.50em;
+  flex-basis: 320px;
+  background: black;
+  color: rgb(255,255,255);
+
+}
+
+#section_03 figure {
+  border: 1px solid white;
+}
+
+footer {
+  min-height: 80vh;
+  background-color: rgb(32,32,32);
+  display: flex;
+  align-items: center;
+}
+
+footer a {
+  display: block;
+  color: white;
+  font-size: 2em;
+  padding: 1em;
+}
